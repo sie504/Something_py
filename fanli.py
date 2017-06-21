@@ -117,14 +117,3 @@ if __name__ == '__main__':     #判断文件入口
         print data
         file.write(data)
 
-
-
-
-
-
-
-
-
-
-
-
