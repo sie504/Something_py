@@ -11,3 +11,7 @@
 获取源码、打印话题内容 从超链接中间获取文本、打印评论内容、用户输入操作。。。。
 
 首先是在主页中获取源码内容，通过BeautifulSoup解析源码，在源码中找到话题内容以及话题的链接，再读取具体话题下的评论。直接使用一个函数来进行的获取内容和话题评论。。其中的attrs、get_text获取对应的标签以及文本内容。需要学习BS4其中的具体使用技巧。
+
+##### [douban.py](https://github.com/sie504/Something_py/blob/master/douban.py)
+
+还是使用bs4解析其中的html，找到img标签，获取src属性地址，使用`urllib.urlretrieve`进行下载url资源。
